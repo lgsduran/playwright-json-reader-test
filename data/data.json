@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Duke",
+		"age": "30",
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "555-555-5555"
+			},
+			{
+				"type": "work",
+				"number": "555-555-5556"
+			}
+		]
+	},
+	{
+		"name": "Tom",
+		"age": "32",
+		"phoneNumbers": [
+			{
+				"type": "work",
+				"number": "555-555-5557"
+			},
+			{
+				"type": "work",
+				"number": "555-555-5558"
+			},
+			{
+				"type": "home",
+				"number": "555-555-5510"
+			}
+		]
+	},
+	{
+		"name": "Jerry",
+		"age": "33",
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "555-555-5559"
+			},
+			{
+				"type": "home",
+				"number": "555-555-5510"
+			},
+			{
+				"type": "home",
+				"number": "555-555-5559"
+			}
+		]
+	}
+]

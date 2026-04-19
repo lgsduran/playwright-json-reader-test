@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "types": [
+            "node",
+            "playwright/test",
+            "jest"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "allowJs": false,
+        "noUncheckedIndexedAccess": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "rootDir": "."
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "test/**/*.spec.ts",
+        "fixtures/**/*.ts",
+        "utils/**/*.ts",
+        "data/**/*.json",
+        "modules/**/*.ts",
+        "vite.config.ts",
+        "playwright.config.ts",
+        "src", 
+        "e2e/tests"
+    ]
+}
