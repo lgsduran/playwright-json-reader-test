@@ -1,7 +1,7 @@
-import { PhoneNumbers } from "./phoneNumber";
+import { Person, PhoneNumber } from "./index";
 
 export interface PersonJson {
-  name: string;
-  age: number;
-  phoneNumbers: PhoneNumbers[];
+  name: Person["name"];
+  age: Person["age"];
+  phoneNumbers: PhoneNumber[];
 }

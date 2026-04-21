@@ -1,8 +1,8 @@
-import { PhoneNumbers } from "./phoneNumber";
+import { Person, PhoneNumber } from "./index";
 
 export interface PersonExcel {
-  name: string;
-  age: number;
-  type: "home" | "work" | "mobile";
-  phoneNumber: string;
+  name: Person["name"];
+  age: Person["age"]  ;
+  type: PhoneNumber["type"];
+  phoneNumber: PhoneNumber["number"];
 }
