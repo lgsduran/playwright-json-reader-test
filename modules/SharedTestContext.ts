@@ -1,4 +1,4 @@
-import { PersonJson } from './PersonJson.js';
+import { PersonJson } from './PersonJson';
 
 export class SharedTestContext {
     private person: PersonJson[];

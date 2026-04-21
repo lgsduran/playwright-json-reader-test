@@ -1,5 +1,4 @@
 import { test } from '../fixtures/dataFixture';
-import { loadJSON } from '../utils/loadJSON';
 import { loadWorkBook } from '../utils/loadWorkBook';
 
 test.describe("Learning Playwright", () => {

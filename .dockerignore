@@ -4,3 +4,14 @@ old
 playwright-report
 test-results
 .git
+.vscode
+.idea
+.DS_Store
+logs
+dist
+coverage
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo

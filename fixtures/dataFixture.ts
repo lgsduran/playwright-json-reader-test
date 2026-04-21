@@ -1,7 +1,7 @@
 import { test as base } from '@playwright/test';
-import { loadJSON } from '../utils/loadJSON.js';
-import { SharedTestContext } from '../modules/SharedTestContext.js';
-import { PersonJson } from '../modules/PersonJson.js';
+import { loadJSON } from '../utils/loadJSON';
+import { SharedTestContext } from '../modules/SharedTestContext';
+import { PersonJson } from '../modules/PersonJson';
 
 export const test = base.extend<{
   persons: PersonJson[],
