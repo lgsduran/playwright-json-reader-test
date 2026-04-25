@@ -1,17 +1,37 @@
+# Ignorar diretório de configuração do GitHub
+.github
+
+# Ignorar dependências locais
 node_modules
-npm-debug.log
-old
-playwright-report
-test-results
-.git
-.vscode
-.idea
-.DS_Store
-logs
-dist
-coverage
+
+# Ignorar arquivos de log
 *.log
-*.tmp
-*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos temporários e caches
 *.swp
 *.swo
+*.tmp
+*.temp
+.cache
+dist
+
+# Ignorar arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de controle de versão
+.git
+.gitignore
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de resultados
+playwright-report
+test-results
+old
