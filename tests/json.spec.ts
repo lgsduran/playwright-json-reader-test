@@ -1,8 +1,8 @@
 import { test } from '../fixtures/dataFixture';
 
 test.describe("Learning Playwright", () => {
-  test('generate tests per person', async ({ personsJson }) => {
-    for (const person of personsJson) {
+  test('generate tests per person', async ({ personJson }) => {
+    for (const person of personJson) {
       console.log(`Name: ${person.name}`);
       console.log(`Age: ${person.age}`);
       for (const phone of person.phoneNumbers) {

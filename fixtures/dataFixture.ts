@@ -5,18 +5,18 @@ import { PersonJson, PersonExcel } from '../modules/index';
 import { DataPath } from '../constants/dataPath';
 
 export const test = base.extend<{
-  personsJson: PersonJson[],
-  personsExcel: PersonExcel[],
+  personJson: PersonJson[],
+  personExcel: PersonExcel[],
   SharedTestContext: SharedTestContext;
 }>({
-  personsJson: async ({ }, use) => {
-    const persons: PersonJson[] = loadJSON(DataPath.JSON);
+  personJson: async ({ }, use) => {
+    const personJson: PersonJson[] = loadJSON(DataPath.JSON);
     // await use(new SharedTestContext(loadJSON('./data/data.json')));
-    await use(persons);
+    await use(personJson);
   },
-  personsExcel: async ({ }, use) => {
-    const personsExcel: PersonExcel[] = loadExcel(DataPath.EXCEL);
-    await use(personsExcel);
+  personExcel: async ({ }, use) => {
+    const personExcel: PersonExcel[] = loadExcel(DataPath.EXCEL);
+    await use(personExcel);
   }
 });
 
