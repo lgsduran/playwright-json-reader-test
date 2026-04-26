@@ -1,14 +1,12 @@
 import { test } from '../fixtures/dataFixture';
-import { loadWorkBook } from '../utils/loadWorkBook';
 
 test.describe("Learning Playwright", () => {
-    test(`Running test for excel`, async ({ }) => {
-        const workBook = loadWorkBook('./data/data.xlsx');
-        for (const line of workBook) {
-            console.log(`Name: ${line.name}`);
-            console.log(`Age: ${line.age}`);
-            console.log(`Phone type: ${line.type}`);
-            console.log(`Phone number: ${line.phoneNumber}`);
+    test(`Running test for excel`, async ({ personsExcel }) => {
+        for (const person of personsExcel) {
+            console.log(`Name: ${person.name}`);
+            console.log(`Age: ${person.age}`);
+            console.log(`Phone type: ${person.type}`);
+            console.log(`Phone number: ${person.phoneNumber}`);
             console.log("-----------------------------");
         }
     });
