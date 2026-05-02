@@ -27,9 +27,7 @@
         "utils/**/*.ts",
         "data/**/*.json",
         "modules/**/*.ts",
-        "vite.config.ts",
         "playwright.config.ts",
-        "src", 
         "e2e/tests"
     ]
 }
